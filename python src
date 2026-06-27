@@ -1,0 +1,13 @@
+import os
+
+print("🚀 Starting IoT Data Analysis Project...")
+
+# Step 1: Run Data Cleaning
+print("\n🧹 Running Data Cleaning...")
+os.system("python src/data_cleaning.py")
+
+# Step 2: Run Analysis
+print("\n📊 Running Analysis...")
+os.system("python src/analysis.py")
+
+print("\n✅ Project Completed Successfully!")
